@@ -1,0 +1,19 @@
+<div class="stopwatch-container">
+    <h1 class="title">Angular Stopwatch</h1>
+    <div class="time-display">{{ formatTime() }}</div>
+    <div class="buttons">
+      <button (click)="start()" [disabled]="!isPaused && isActive" class="btn start">
+        {{ isPaused ? 'Resume' : 'Start' }}
+      </button>
+      <button (click)="pause()" [disabled]="!isActive || isPaused" class="btn pause">
+        Pause
+      </button>
+      <button (click)="reset()" [disabled]="!isActive && time === 0" class="btn reset">
+        Reset
+      </button>
+    </div>
+    <footer class="footer">
+      Copyright &copy; {{ currentYear }} Dhanya K.R
+    </footer>
+  </div>
+  
