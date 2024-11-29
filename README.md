@@ -12,6 +12,6 @@ This is a simple stopwatch application built with Angular. It allows users to st
 - **Start**: Begin the stopwatch.
 - **Pause**: Pause the stopwatch and resume from the same time.
 - **Reset**: Reset the stopwatch to `00:00:00`.
-- 
+
  ## Live Demo
  https://stopwatchkr.onrender.com/
